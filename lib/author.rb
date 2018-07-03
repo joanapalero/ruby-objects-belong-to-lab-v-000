@@ -3,7 +3,7 @@ class Author
  
   def author(name) 
     author = Author.new
-    @name = name
+    @author = author
   end
  
 end
