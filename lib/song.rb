@@ -1,7 +1,7 @@
 class Song
   attr_accessor :title, :artist
  
-  def author(name) 
+  def song(title) 
     author = Author.new
     @name = name
   end
