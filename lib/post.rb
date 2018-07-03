@@ -1,5 +1,5 @@
 class Post
-  attr_accessor :name
+  attr_accessor :title, :author
  
   def author(name) 
     author = Author.new
