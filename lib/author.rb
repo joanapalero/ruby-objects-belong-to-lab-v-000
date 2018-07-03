@@ -1,8 +1,8 @@
 class Author
-  attr_accessor :name
+  attr_accessor :author
  
   def author(name) 
-    artist = Artist.new
+    author = Artist.new
     @name = name
   end
  
