@@ -2,8 +2,7 @@ class Post
   attr_accessor :title, :author
  
   def post(title) 
-    author = Author.new
-    @name = name
+    @title = title
   end
  
 end
