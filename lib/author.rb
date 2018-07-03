@@ -1,5 +1,5 @@
 class Author
-  attr_accessor :author
+  attr_accessor :name
  
   def author(name) 
     author = Author.new
